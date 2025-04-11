@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/miliinbeer/miliincode/static/js/main.a4c1d96e.js",
-    "index.html": "/miliinbeer/miliincode/index.html",
-    "main.a4c1d96e.js.map": "/miliinbeer/miliincode/static/js/main.a4c1d96e.js.map"
+    "main.js": "/miliincode/static/js/main.107817d4.js",
+    "index.html": "/miliincode/index.html",
+    "main.107817d4.js.map": "/miliincode/static/js/main.107817d4.js.map"
   },
   "entrypoints": [
-    "static/js/main.a4c1d96e.js"
+    "static/js/main.107817d4.js"
   ]
 }
