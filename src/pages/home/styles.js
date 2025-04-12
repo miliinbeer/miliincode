@@ -11,7 +11,7 @@ export const Root = styled.div`
   overflow: hidden;
 
   a {
-    color: ${({ theme }) => theme.fontColor.primary};
+    color: ${({ theme }) => theme.color.primary};
     transition: 0.5s ease;
 
     &:hover {
@@ -37,7 +37,7 @@ export const Root = styled.div`
 
     &:last-child::after {
       content: "Милена";
-      color: ${({ theme }) => theme.fontColor.secondary};
+      color: ${({ theme }) => theme.color.secondary};
     }
 
     &:last-child:hover::after {
