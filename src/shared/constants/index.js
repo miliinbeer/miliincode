@@ -1,7 +1,8 @@
 export const theme = {
-  fontColor: {
-    primary: "black",
+  color: {
+    primary: "#000000",
     secondary: "#adff2f",
+    background: "#0000"
   },
   flex: {
     contentCenter: `

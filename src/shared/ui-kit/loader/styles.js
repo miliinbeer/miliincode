@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   position: fixed;
   inset: 0;
-  background: transparent;
+  background: ${({ theme }) => theme.color.background};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Spiner = styled.div`
   width: 500px;
   height: 500px;
-  border: 30px solid ${({ theme }) => theme.fontColor.secondary};
+  border: 30px solid ${({ theme }) => theme.color.secondary};
   border-bottom-color: transparent;
   border-radius: 50%;
   animation: rotation 1s linear infinite;
