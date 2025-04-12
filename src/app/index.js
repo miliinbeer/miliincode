@@ -9,28 +9,33 @@ import { PortfolioPage } from "../pages/portfolio";
 import { ContactsPage } from "../pages/contacts";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
+      },
+      {
+        path: "/portfolio",
+        element: <PortfolioPage />,
+      },
+      {
+        path: "/contacts",
+        element: <ContactsPage />,
+      },
+    ],
     {
-      path: "/",
-      element: <HomePage />,
-    },
-    {
-      path: "*",
-      element: <ErrorPage />,
-    },
-    {
-      path: "/about",
-      element: <AboutPage />,
-    },
-    {
-      path: "/portfolio",
-      element: <PortfolioPage />,
-    },
-    {
-      path: "/contacts",
-      element: <ContactsPage />,
-    },
-  ]);
+      basename: "/miliincode",
+    }
+  );
 
   return (
     <ThemeProvider theme={theme}>
