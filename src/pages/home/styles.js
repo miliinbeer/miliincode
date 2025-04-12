@@ -8,6 +8,7 @@ export const Root = styled.div`
   font-weight: 700;
   text-transform: uppercase;
   line-height: 200px;
+  overflow: hidden;
 
   a {
     color: ${({ theme }) => theme.fontColor.primary};
@@ -46,6 +47,10 @@ export const Root = styled.div`
     @media (max-width: 1100px) {
       font-size: 150px;
       line-height: 150px;
+      &:hover {
+        padding-left: 0px;
+        transition: 0;
+      }
       &:first-child::after {
         content: "Обо мне";
       }
