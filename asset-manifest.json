@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/miliincode/static/js/main.7ee1f9be.js",
+    "main.js": "/miliincode/static/js/main.f84badf6.js",
     "index.html": "/miliincode/index.html",
-    "main.7ee1f9be.js.map": "/miliincode/static/js/main.7ee1f9be.js.map"
+    "main.f84badf6.js.map": "/miliincode/static/js/main.f84badf6.js.map"
   },
   "entrypoints": [
-    "static/js/main.7ee1f9be.js"
+    "static/js/main.f84badf6.js"
   ]
 }
